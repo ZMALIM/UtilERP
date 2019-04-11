@@ -6,7 +6,6 @@
         "laravelcollective/html": "5.7.*",
         "illuminate/translation": "5.7.17"
     },
-    "license": "MI",
     "authors": [
         {
             "name": "Leonel HS",
