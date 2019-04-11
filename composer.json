@@ -31,7 +31,10 @@
             ],
             "aliases": {
                 "Menu": "UtilERP\\Facades\\Menu"
-            }
+            },
+            "dont-discover": [
+                "laravelcollective/html"
+            ]
         }
     }
 }

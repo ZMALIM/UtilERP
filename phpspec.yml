@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: UtilERP
+        psr4_prefix: UtilERP
+        src_path: src
