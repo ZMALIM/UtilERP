@@ -1,6 +1,12 @@
 {
-    "name": "utilsoft/controlerp",
-    "description": "Crea menus y sub menus",
+    "name": "leonelhs/utilerp",
+    "description": "Libreria y utilitarios ERP",
+    "require": {
+        "php": ">=7.1.3",
+        "laravelcollective/html": "5.7.*",
+        "illuminate/translation": "5.7.*"
+    },
+    "license": "MI",
     "authors": [
         {
             "name": "Leonel HS",
@@ -8,11 +14,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.1.3",
-        "laravelcollective/html": "5.7.*",
-        "illuminate/translation": "5.7.*"
-    },
     "require-dev": {
         "phpspec/phpspec": "~4.0"
     },
@@ -25,9 +26,6 @@
         ]
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        },
         "laravel": {
             "providers": [
                 "UtilERP\\HtmlServiceProvider"

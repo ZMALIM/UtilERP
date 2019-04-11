@@ -1,4 +1,5 @@
 /vendor
+composer__.json
 composer.phar
 composer.lock
 .DS_Store
