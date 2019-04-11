@@ -4,7 +4,7 @@
     "require": {
         "php": ">=7.1.3",
         "laravelcollective/html": "5.7.*",
-        "illuminate/translation": "5.7.*"
+        "illuminate/translation": "5.7.17"
     },
     "license": "MI",
     "authors": [
@@ -26,6 +26,9 @@
         ]
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
         "laravel": {
             "providers": [
                 "UtilERP\\HtmlServiceProvider"
