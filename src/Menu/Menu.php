@@ -4,11 +4,15 @@ namespace UtilERP\Menu;
 
 use Closure;
 use UtilERP\Str;
+use UtilsERP\Access\VerifyAccess;
 use Illuminate\Translation\Translator as Lang;
 use Illuminate\Contracts\Routing\UrlGenerator as Url;
 
 class Menu
 {
+    use VerifyAccess{
+        checkAccess as traitCheckAccess;
+    }
     /**
      * @var \Illuminate\Contracts\Routing\UrlGenerator
      */

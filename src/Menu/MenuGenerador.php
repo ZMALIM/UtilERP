@@ -3,13 +3,16 @@
 namespace UtilERP\Menu;
 
 use Closure;
+USE UtilERP\Access\VerifyAccess;
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Translation\Translator as Lang;
 use Illuminate\Contracts\Config\Repository as Config;
 
 class MenuGenerador 
 {
-        /**
+    use VerifyAccess;
+    
+    /**
      * Laravel or custom implementation to generate the URLs and routes
      *
      * @var \Illuminate\Contracts\Routing\UrlGenerator

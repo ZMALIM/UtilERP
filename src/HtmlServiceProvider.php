@@ -40,7 +40,7 @@ class HtmlServiceProvider extends ServiceProvider
     {
         $this->app->bind('menu', function ($app) {
 
-            $menu = new MenuGenerator(
+            $menu = new MenuGenerador(
                 $app['url'],
                 $app['config']
             );
